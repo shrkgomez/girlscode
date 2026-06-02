@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girls Code | Contacto</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <div class="top-announcement">
+        Girls Code ✦ Cuestionando los códigos invisibles de la sociedad, la moda y la cultura pop
+    </div>
+
+    <header>
+       <a href="index.html" class="brand-title">
+    <img src="logo.png" alt="Logo" style="height: 30px; margin-right: 10px; vertical-align: middle;">
+    GIRLS<span>CODE</span>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="conoce.html">Conoce A...</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html" class="active">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="section-indicator">Buzón de Mensajes</div>
+        
+        <div class="contact-container">
+            
+            <!-- FILA SUPERIOR: INFORMACIÓN Y FORMULARIO UNIFICADOS -->
+            <div class="contact-row-top">
+                
+                <!-- Columna Izquierda: Datos de la UAEMex -->
+                <div class="info-column">
+                    <h3>Envíanos tus <br>propuestas</h3>
+                    <p style="margin-bottom: 25px; text-align: justify; line-height: 1.5;">Este es un apartado donde los internautas pueden enviar sus ideas de artículos o contenidos para que sean publicados. También resolvemos todas tus dudas académicas y estéticas.</p>
+                    
+                    <p style="margin-bottom: 12px; font-size: 0.9rem;"><strong>CORREO:</strong> girlscode524@gmail.com</p>
+                    <p style="margin-bottom: 12px; font-size: 0.9rem;"><strong>TELÉFONO:</strong> +52 56 595 14757</p>
+                    <p style="font-size: 0.9rem;"><strong>UBICACIÓN:</strong> Universidad Autónoma del Estado de México</p>
+                </div>
+
+                <!-- Columna Derecha: Formulario Corregido y Alineado -->
+                <div class="form-column">
+                    <form action="#" method="POST" onsubmit="event.preventDefault(); alert('¡Propuesta enviada con éxito!');">
+                        
+                        <!-- Inputs en línea horizontal (Nombre y Correo) -->
+                        <div class="form-grid-horizontal">
+                            <div class="form-group">
+                                <label style="font-weight: 600; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.5px;">Nombre Completo</label>
+                                <input type="text" class="input-minimal" placeholder="Tu nombre..." required>
+                            </div>
+                            <div class="form-group">
+                                <label style="font-weight: 600; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.5px;">Correo Electrónico</label>
+                                <input type="email" class="input-minimal" placeholder="correo@ejemplo.com" required>
+                            </div>
+                        </div>
+
+                        <!-- Bloque de Texto de la Idea -->
+                        <div class="form-group">
+                            <label style="font-weight: 600; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.5px;">Idea de Artículo</label>
+                            <textarea class="input-minimal" rows="5" placeholder="Cuéntanos de qué estética o concepto deberíamos hablar..." style="resize: none;" required></textarea>
+                        </div>
+
+                        <!-- Botón alineado a la derecha -->
+                        <div style="text-align: right;">
+                            <button type="submit" class="btn-submit">Enviar Datos</button>
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
+
+            <!-- FILA INFERIOR: MAPA EXTENDIDO HORIZONTAL -->
+            <div class="contact-row-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.9632051956064!2d-99.68055992581031!3d19.28396624541282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d20415759f0eb7%3A0x3f924119b2117a76!2sUniversidad%20Aut%C3%B3noma%20del%20Estado%20de%20M%C3%A9xico!5e0!3m2!1ses-419!2smx!4v1780342571112!5m2!1ses-419!2smx" width="100%" height="100%" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>Nuestras Redes Sociales:</p>
+        <div class="footer-social-container">
+            <a href="https://www.instagram.com/girlscode_z?igsh=cDNnZHdkNDZ6dmt0&utm_source=qr" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@girlsscode_z?_r=1&_t=ZS-94utwGO5qvH" target="_blank" title="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+        <a href="privacidad.pdf" class="btn-privacidad" target="_blank">Aviso de Privacidad</a>
+        </div>
+        <p>© 2026 GIRLS CODE.</p>
+    </footer>
+
+</body>
+</html>
